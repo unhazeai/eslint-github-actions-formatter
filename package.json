@@ -1,0 +1,21 @@
+{
+  "name": "eslint-github-actions-reporter",
+  "version": "1.0.0",
+  "description": "Reporter for ESLInt that outputs GitHub Actions annotations",
+  "main": "dist/reporter.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "firmnav",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^6.1.8",
+    "@types/node": "^12.12.8",
+    "typescript": "^3.7.2"
+  }
+}
