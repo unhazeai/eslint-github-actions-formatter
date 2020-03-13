@@ -2,7 +2,7 @@
   "name": "eslint-github-actions-reporter",
   "version": "1.0.0",
   "description": "Reporter for ESLInt that outputs GitHub Actions annotations",
-  "main": "dist/reporter.js",
+  "main": "dist/formatter.js",
   "scripts": {
     "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
