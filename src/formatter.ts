@@ -16,7 +16,6 @@ module.exports = function(results: CLIEngine.LintResult[]): string {
       issueCommand(severity, args, msg);
     }
   }
-  a
 
   issue('endgroup');
 

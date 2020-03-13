@@ -15,7 +15,6 @@ module.exports = function (results) {
             command_1.issueCommand(severity, args, msg);
         }
     }
-    a;
     command_1.issue('endgroup');
     return '';
 };
