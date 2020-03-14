@@ -11,7 +11,7 @@ npm install --save-dev @firmnav/eslint-github-actions-formatter
 ```
 yarn:
 ```
-yarn add --dev @firmnav/github-actions-formatter
+yarn add --dev @firmnav/eslint-github-actions-formatter
 ```
 
 ## Usage
