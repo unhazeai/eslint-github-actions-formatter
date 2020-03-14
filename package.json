@@ -1,7 +1,7 @@
 {
-  "name": "eslint-github-actions-reporter",
+  "name": "@firmnav/eslint-github-actions-formatter",
   "version": "1.0.0",
-  "description": "Reporter for ESLInt that outputs GitHub Actions annotations",
+  "description": "Formatter for ESLInt that outputs GitHub Actions annotations",
   "main": "dist/formatter.js",
   "scripts": {
     "watch": "tsc --watch",
@@ -17,5 +17,19 @@
     "@types/eslint": "^6.1.8",
     "@types/node": "^12.12.8",
     "typescript": "^3.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirmNav/eslint-github-actions-formatter.git"
+  },
+  "keywords": [
+    "eslint",
+    "github actions",
+    "ci",
+    "formatter"
+  ],
+  "bugs": {
+    "url": "https://github.com/FirmNav/eslint-github-actions-formatter/issues"
+  },
+  "homepage": "https://github.com/FirmNav/eslint-github-actions-formatter#readme"
 }
