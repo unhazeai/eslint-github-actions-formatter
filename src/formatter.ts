@@ -6,12 +6,12 @@ module.exports = function(results: CLIEngine.LintResult[]): string {
 
   for (const file of results.filter(r => r.messages.length > 0)) {
     for (const message of file.messages) {
-      const msg = `${message.message} (${message.ruleId})`;
+      const msg = message.message + (message.ruleId ? ` (${message.ruleId})` : '');
       const severity = message.fatal || message.severity === 2 ? 'error' : 'warning';
       const args = {
         file: file.filePath.substr(process.cwd().length+1),
-        line: message.line.toString(),
-        col: message.column.toString(),
+        line: message.line && message.line.toString(),
+        col: message.column && message.column.toString(),
       };
       issueCommand(severity, args, msg);
     }
